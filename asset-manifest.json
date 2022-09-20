@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bibo-art/static/css/main.80868ac6.css",
-    "main.js": "/bibo-art/static/js/main.ad54a894.js",
+    "main.js": "/bibo-art/static/js/main.6ab35787.js",
     "index.html": "/bibo-art/index.html",
     "main.80868ac6.css.map": "/bibo-art/static/css/main.80868ac6.css.map",
-    "main.ad54a894.js.map": "/bibo-art/static/js/main.ad54a894.js.map"
+    "main.6ab35787.js.map": "/bibo-art/static/js/main.6ab35787.js.map"
   },
   "entrypoints": [
     "static/css/main.80868ac6.css",
-    "static/js/main.ad54a894.js"
+    "static/js/main.6ab35787.js"
   ]
 }
