@@ -15,8 +15,10 @@ function ImageText({index}) {
           <p>{text}</p>
         </HalfDiv>
         <HalfDiv>
-          <img src={image} alt={title} key={index} />
-          {secondImage && <img src={secondImage} alt={title} key={index} />}
+          <img src={`${process.env.PUBLIC_URL}/${image}`} alt={title} key={index} />
+          {secondImage && (
+            <img src={`${process.env.PUBLIC_URL}/${secondImage}`} alt={title} key={index} />
+          )}
         </HalfDiv>
       </ImageTextContainer>
     </>

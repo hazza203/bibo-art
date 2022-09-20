@@ -40,42 +40,72 @@ function Main() {
       <br />
       <ImageContainer>
         {IMAGE_SOURCES.slice(0, 3).map(({url, image}) => (
-          <img src={image} alt={url} key={url} onClick={() => navigate(url)} />
+          <img
+            src={`${process.env.PUBLIC_URL}/${image}`}
+            alt={url}
+            key={url}
+            onClick={() => navigate(url)}
+          />
         ))}
       </ImageContainer>
       <br />
       <br />
       <ImageContainer>
         {IMAGE_SOURCES.slice(3, 6).map(({url, image}) => (
-          <img src={image} alt={url} key={url} onClick={() => navigate(url)} />
+          <img
+            src={`${process.env.PUBLIC_URL}/${image}`}
+            alt={url}
+            key={url}
+            onClick={() => navigate(url)}
+          />
         ))}
       </ImageContainer>
       <br />
       <br />
       <ImageContainer>
         {IMAGE_SOURCES.slice(6, 9).map(({url, image}) => (
-          <img src={image} alt={url} key={url} onClick={() => navigate(url)} />
+          <img
+            src={`${process.env.PUBLIC_URL}/${image}`}
+            alt={url}
+            key={url}
+            onClick={() => navigate(url)}
+          />
         ))}
       </ImageContainer>
       <br />
       <br />
       <ImageContainer>
         {IMAGE_SOURCES.slice(9, 12).map(({url, image}) => (
-          <img src={image} alt={url} key={url} onClick={() => navigate(url)} />
+          <img
+            src={`${process.env.PUBLIC_URL}/${image}`}
+            alt={url}
+            key={url}
+            onClick={() => navigate(url)}
+          />
         ))}
       </ImageContainer>
       <br />
       <br />
       <ImageContainer>
         {IMAGE_SOURCES.slice(12, 14).map(({url, image}) => (
-          <img src={image} alt={url} key={url} onClick={() => navigate(url)} />
+          <img
+            src={`${process.env.PUBLIC_URL}/${image}`}
+            alt={url}
+            key={url}
+            onClick={() => navigate(url)}
+          />
         ))}
       </ImageContainer>
       <br />
       <br />
       <ImageContainer>
         {IMAGE_SOURCES.slice(14, 16).map(({url, image}) => (
-          <img src={image} alt={url} key={url} onClick={() => navigate(url)} />
+          <img
+            src={`${process.env.PUBLIC_URL}/${image}`}
+            alt={url}
+            key={url}
+            onClick={() => navigate(url)}
+          />
         ))}
       </ImageContainer>
     </MainContainer>
