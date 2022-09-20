@@ -2,7 +2,7 @@
   "name": "art-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hazza203.github.io",
+  "homepage": "https://hazza203.github.io/bibo-art",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
